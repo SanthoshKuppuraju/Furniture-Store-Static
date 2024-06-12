@@ -1,0 +1,300 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: whitesmoke;
+
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: 900;
+
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+}
+
+.navleft li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navleft :nth-child(4) {
+    border: 1px solid yellow;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: yellow;
+
+}
+
+
+.navleft li {
+    list-style: none;
+    padding: 20px;
+    font-weight: 900;
+}
+
+/* Hidingbox */
+.hidingbox {
+    height: 86px;
+    width: 280px;
+    border: 0px solid;
+    position: fixed;
+    top: 0px;
+    left: 930px;
+    background-color: whitesmoke;
+    z-index: 1;
+
+}
+
+/* Search bar */
+.searchbar {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    background-color: white;
+    color: rgb(69, 66, 66);
+    padding: 15px;
+    font-size: 25px;
+    border: 0px solid;
+    width: 1000px;
+
+
+}
+
+::placeholder {
+    color: rgb(188, 180, 195);
+}
+
+.searchicon {
+    position: absolute;
+    top: 130px;
+    left: 1040px;
+}
+
+
+/* Recent search */
+.recentsearch h3 {
+    position: relative;
+    left: 40px;
+    top: 5px;
+    font-weight: 500;
+}
+
+.recentsearch {
+    position: absolute;
+    top: 250px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.recentsearch ul li {
+    margin: 10px;
+
+    border: 0px solid;
+    width: 300px;
+    padding: 5px;
+    list-style: none;
+    background-color: white;
+}
+
+.name {
+    position: relative;
+    bottom: 30px;
+    left: 3px;
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+}
+
+.place {
+    display: inline;
+    position: relative;
+    right: 102px;
+    bottom: 12px;
+    color: rgb(67, 67, 67);
+    font-size: 15px;
+}
+
+/* Professional */
+.professional h3 {
+    position: relative;
+    left: 40px;
+    top: 5px;
+    font-weight: 500;
+}
+
+.professional {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.professional ul li {
+    margin: 10px;
+
+    border: 0px solid;
+    width: 300px;
+    padding: 5px;
+    list-style: none;
+    background-color: white;
+}
+
+.name {
+    position: relative;
+    bottom: 30px;
+    left: 3px;
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+}
+
+.place {
+    display: inline;
+    position: relative;
+    right: 102px;
+    bottom: 12px;
+    color: rgb(67, 67, 67);
+    font-size: 15px;
+}
+
+/* Photos */
+.photos h3 {
+    position: relative;
+    left: 40px;
+    top: 5px;
+    font-weight: 500;
+}
+
+.photos {
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.photos ul li {
+    margin: 10px;
+
+    border: 0px solid;
+    width: 300px;
+    padding: 5px;
+    list-style: none;
+    background-color: white;
+}
+
+.name {
+    position: relative;
+    bottom: 30px;
+    left: 3px;
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+}
+
+.place {
+    display: inline;
+    position: relative;
+    right: 102px;
+    bottom: 12px;
+    color: rgb(67, 67, 67);
+    font-size: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(218, 216, 216);
+    position: absolute;
+    top: 900px;
+
+
+
+}
+
+.footers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 90px;
+    margin-left: 100px;
+
+
+}
+
+.footer1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: rgb(66, 66, 67);
+    letter-spacing: 2px;
+
+
+}
+
+
+.endpart {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.endpart p {
+    font-size: 20px;
+    position: relative;
+    line-height: 30px;
+
+
+}
+
+.endpart ul li {
+    list-style: none;
+    margin-bottom: 18px;
+
+
+}
+
+.endpart ul li:hover {
+    color: blue;
+    transform: scale(1.1, 1.1);
+}
+
+.endpart ul {
+    padding-left: 80px;
+}

@@ -1,0 +1,459 @@
+body {
+    background-color: whitesmoke;
+
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: whitesmoke;
+
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: 900;
+
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+}
+
+.navleft li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navleft :nth-child(4) {
+    border: 1px solid yellow;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: yellow;
+
+}
+
+
+.navleft li {
+    list-style: none;
+    padding: 20px;
+    font-weight: 900;
+}
+
+/* Hidingbox */
+.hidingbox {
+    height: 86px;
+    width: 280px;
+    border: 0px solid;
+    position: fixed;
+    top: 0px;
+    left: 930px;
+    background-color: whitesmoke;
+    z-index: 1;
+
+}
+
+/* homenav */
+.homenav {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.homenav a {
+    text-decoration: none;
+}
+
+.hmolk {
+    color: black;
+}
+
+.photolnk {
+
+    color: rgb(127, 127, 130);
+}
+
+/* Customer information */
+.customerinfo {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+    border: 0px solid;
+    background-color: white;
+    padding: 30px;
+}
+
+.h1 {
+    font-size: 25px;
+
+}
+
+.sideh1 {
+    color: rgb(127, 127, 130);
+}
+
+.sideh1 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+input {
+    width: 500px;
+    padding: 7px;
+}
+
+.checkbox {
+    width: 20px;
+    padding: 0px;
+}
+
+.adr2 {
+    width: 250px;
+    margin-right: 80px;
+}
+
+.adr3 {
+    width: 150px;
+}
+
+.admini {
+    width: 150px;
+    margin-right: 50px;
+}
+
+.post {
+    width: 100px;
+}
+
+.customerinfo img {
+    height: 150px;
+    width: 520px;
+}
+
+/* Right side box 1 cart */
+.rigthsidebox {
+    position: absolute;
+    top: 150px;
+    left: 950px;
+    height: 650px;
+    width: 490px;
+    border: 0px solid;
+    background-color: white;
+}
+
+.shpctdetails {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+
+}
+
+.shpctdetails h3 {
+    font-size: 19px;
+    font-weight: 400;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+
+}
+
+.shpctdetails p {
+    color: rgb(141, 141, 141);
+    position: relative;
+    bottom: 107px;
+    left: 80px;
+
+
+}
+
+.shpctdetails img {
+    height: 90px;
+    width: 60px;
+}
+
+.shpctdetails h4 {
+    font-weight: 400;
+    text-align: end;
+    position: relative;
+    bottom: 190px;
+    margin-right: 20px;
+}
+
+/* Details 2 */
+.shpctdetails2 {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 170px;
+
+
+
+}
+
+.shpctdetails2 h3 {
+    font-size: 19px;
+    font-weight: 400;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+
+}
+
+.shpctdetails2 p {
+    color: rgb(141, 141, 141);
+    position: relative;
+    bottom: 107px;
+    left: 80px;
+
+
+}
+
+.shpctdetails2 img {
+    height: 90px;
+    width: 60px;
+}
+
+.shpctdetails2 h4 {
+    font-weight: 400;
+    text-align: end;
+    position: relative;
+    bottom: 190px;
+    margin-right: 20px;
+}
+
+.line1 {
+    border: 1px solid rgb(204, 204, 204);
+    position: relative;
+    bottom: 310px;
+    margin: 10px;
+
+}
+
+.rigthsidebox input {
+    padding: 10px;
+    width: 250px;
+    margin: 15px;
+    position: relative;
+    bottom: 300px;
+    margin-bottom: 30px;
+
+}
+
+.rigthsidebox button {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 11px;
+    width: 70px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 300px;
+    right: 18px;
+}
+
+.subtotal {
+    position: relative;
+    bottom: 290px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtotal h5 {
+    font-weight: 300;
+    text-align: end;
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    bottom: 320px;
+}
+
+.ttlamt {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Right side box */
+.rightside {
+    position: absolute;
+    top: 850px;
+    left: 950px;
+    border: 0px solid;
+    height: 370px;
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.rightside h1 {
+    padding-top: 50px;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+    text-align: end;
+}
+
+.rightside p {
+    color: rgb(141, 141, 141);
+    width: 240px;
+    font-size: 20px;
+    text-align: end;
+    margin-left: 210px;
+
+
+}
+
+.line2 {
+    border: 1px solid rgb(220, 218, 218);
+    position: relative;
+    top: 30px;
+
+}
+
+.delivery {
+    display: flex;
+    align-items: start;
+    position: relative;
+    top: 70px;
+
+
+}
+
+.delivery p {
+    width: 170px;
+    text-align: start;
+    margin: 0px;
+    margin-right: 215px;
+
+}
+
+/* continue to Shooping button */
+.choutbtn {
+    position: absolute;
+    top: 1200px;
+    left: 650px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 220px;
+    color: white;
+    background-color: black;
+}
+
+.shpcrtbtn {
+    position: absolute;
+    top: 1000px;
+    left: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 220px;
+    border: 0px;
+    background-color: yellow;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(218, 216, 216);
+    position: absolute;
+    top: 1500px;
+
+
+
+
+}
+
+.footers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 90px;
+    margin-left: 100px;
+
+
+}
+
+.footer1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: rgb(66, 66, 67);
+    letter-spacing: 2px;
+
+
+}
+
+
+.endpart {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.endpart p {
+    font-size: 20px;
+    position: relative;
+    line-height: 30px;
+
+
+}
+
+.endpart ul li {
+    list-style: none;
+    margin-bottom: 18px;
+
+
+}
+
+.endpart ul li:hover {
+    color: blue;
+    transform: scale(1.1, 1.1);
+}
+
+.endpart ul {
+    padding-left: 80px;
+}

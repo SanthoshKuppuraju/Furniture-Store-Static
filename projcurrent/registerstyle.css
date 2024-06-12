@@ -1,0 +1,223 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* Header Part */
+header {
+    position: fixed;
+    top: 0px;
+    background-color: whitesmoke;
+    z-index: 1;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 47px;
+    left: 9px;
+
+
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: 900;
+
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1200px;
+    top: 5px;
+
+}
+
+
+
+
+.navleft :nth-child(4) {
+    border: 1px solid yellow;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: yellow;
+
+}
+
+
+.navleft li {
+    list-style: none;
+    text-decoration: nonex;
+    padding: 20px;
+    font-weight: 900;
+}
+
+.navleft li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* hover header */
+.nav li a:hover {
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.navleft li:hover {
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+/* Hidingbox */
+.hidingbox {
+    height: 80px;
+    width: 150px;
+    border: 0px solid;
+    position: fixed;
+    top: 0px;
+    left: 800px;
+    background-color: whitesmoke;
+}
+
+/* Login form */
+.formfield {
+    position: relative;
+    top: 60px;
+}
+
+.loginpage {
+    border: 1px solid rgba(255, 255, 255, 0.895);
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    height: 460px;
+    position: absolute;
+    left: 600px;
+    padding-top: 15px;
+    background-color: white;
+
+}
+
+h2 {
+    font-weight: 200;
+}
+
+.btn1 {
+    background-color: rgb(227, 14, 14);
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px 60px;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+input {
+    padding: 10px;
+    width: 260px;
+}
+
+.btn2 {
+    padding: 10px 80px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: yellow;
+    border: none;
+}
+
+.login {
+    text-decoration: none;
+}
+
+.catalyst {
+    position: relative;
+    left: 662px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(218, 216, 216);
+    position: absolute;
+    top: 870px;
+
+
+
+}
+
+.footers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 90px;
+    margin-left: 100px;
+
+
+}
+
+.footer1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: rgb(66, 66, 67);
+    letter-spacing: 2px;
+
+
+}
+
+
+.endpart {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.endpart p {
+    font-size: 20px;
+    position: relative;
+    line-height: 30px;
+
+
+}
+
+.endpart ul li {
+    list-style: none;
+    margin-bottom: 18px;
+
+
+}
+
+.endpart ul li:hover {
+    color: blue;
+    transform: scale(1.1, 1.1);
+}
+
+.endpart ul {
+    padding-left: 80px;
+}

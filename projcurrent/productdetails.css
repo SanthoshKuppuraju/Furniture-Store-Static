@@ -1,0 +1,425 @@
+/* body {
+    background-color: whitesmoke;
+} */
+
+/* Header */
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: 900;
+
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+}
+
+.navleft li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navleft :nth-child(4) {
+    border: 1px solid yellow;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: yellow;
+
+}
+
+
+.navleft li {
+    list-style: none;
+    padding: 20px;
+    font-weight: 900;
+}
+
+/* Hidingbox */
+.hidingbox {
+    height: 86px;
+    width: 280px;
+    border: 0px solid;
+    position: fixed;
+    top: 0px;
+    left: 930px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+
+}
+
+/* homenav */
+.homenav {
+    position: absolute;
+    top: 85px;
+    left: 50px;
+}
+
+.homenav a {
+    text-decoration: none;
+}
+
+.hmolk {
+    color: black;
+}
+
+.photolnk {
+
+    color: rgb(127, 127, 130);
+}
+
+/* home nav end */
+section {
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.details a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 110%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.content1 {
+    /* border: 1px solid; */
+    height: 120%;
+    width: 58%;
+
+}
+
+.content2 {
+
+    height: 120%;
+    width: 35%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(232, 240, 246);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.content2 h1 {
+    font-weight: 549;
+    font-size: 25px;
+}
+
+.content2 h2,
+h3 {
+
+    font-weight: 449;
+    font-size: 20px;
+}
+
+.vintage {
+    display: flex;
+}
+
+.vintbig {
+    position: relative;
+    top: 5px;
+    width: 400px;
+    height: 500px;
+    left: 160px;
+
+}
+
+.bag {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+
+}
+
+.bag h2 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    right: 47px;
+
+}
+
+.bag h3 {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    right: 45px;
+    bottom: 5px;
+
+}
+
+.btn1 {
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+.btn2 {
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: rgb(232, 213, 197);
+    border: none;
+
+}
+
+.btn3 {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: gold;
+
+}
+
+
+
+.over {
+
+    background-color: rgb(225, 226, 226);
+    padding: 10px;
+    width: 500px;
+}
+
+.sellemore {
+    margin-left: 360px;
+}
+
+.hr {
+    border: 1px solid rgb(169, 166, 166);
+    width: 96%;
+    margin-top: 3px;
+}
+
+.material {
+    display: flex;
+}
+
+.wood {
+    padding-left: 60px;
+}
+
+.wood1 {
+    padding-left: 105px;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+
+}
+
+.btun {
+    margin-left: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: gold;
+
+}
+
+.rptwo {
+    display: flex;
+    align-items: center;
+}
+
+.quan {
+    display: flex;
+    padding-left: 140px;
+
+}
+
+.sub {
+    border: 1px solid;
+    padding: 3px 5px;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+.sub- {
+    border: 1px solid;
+    padding: 4px 7px;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+.one {
+    position: relative;
+    right: 15px;
+    bottom: 2px;
+}
+
+.utity,
+.sub1 {
+    padding: 20px;
+
+}
+
+.two {
+    padding-bottom: 70px;
+}
+
+.utity {
+    padding-top: 30px;
+}
+
+.one {
+    padding-top: 30px;
+}
+
+article {
+    margin-top: 240px;
+
+
+
+}
+
+article h2 {
+    font-weight: 30;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 75px;
+}
+
+.rp {
+    padding-left: 60px;
+}
+
+.vee {
+    padding-left: 20px;
+}
+
+.shop {
+    padding-left: 55px;
+    color: rgb(236, 24, 24);
+    font-weight: 600;
+}
+
+.sale {
+    position: relative;
+    left: 200px;
+    bottom: 300px;
+}
+
+.content3 {
+    display: flex;
+}
+
+.stool,
+.stool1,
+.stool2,
+.stool3 {
+    padding: 10px 85px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(218, 216, 216);
+    position: absolute;
+    top: 1900px;
+
+
+
+}
+
+.footers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 90px;
+    margin-left: 100px;
+
+
+}
+
+.footer1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: rgb(66, 66, 67);
+    letter-spacing: 2px;
+
+
+}
+
+
+.endpart {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.endpart p {
+    font-size: 20px;
+    position: relative;
+    line-height: 30px;
+
+
+}
+
+.endpart ul li {
+    list-style: none;
+    margin-bottom: 18px;
+
+
+}
+
+.endpart ul li:hover {
+    color: blue;
+    transform: scale(1.1, 1.1);
+}
+
+.endpart ul {
+    padding-left: 80px;
+}

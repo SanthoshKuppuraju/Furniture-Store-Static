@@ -1,0 +1,363 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: whitesmoke;
+
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: 900;
+
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+}
+
+.navleft li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navleft :nth-child(4) {
+    border: 1px solid yellow;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: yellow;
+
+}
+
+
+.navleft li {
+    list-style: none;
+    padding: 20px;
+    font-weight: 900;
+}
+
+/* Hidingbox */
+.hidingbox {
+    height: 86px;
+    width: 280px;
+    border: 0px solid;
+    position: fixed;
+    top: 0px;
+    left: 930px;
+    background-color: whitesmoke;
+    z-index: 1;
+
+}
+
+/* homenav */
+.homenav {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.homenav a {
+    text-decoration: none;
+}
+
+.hmolk {
+    color: black;
+}
+
+.photolnk {
+
+    color: rgb(127, 127, 130);
+}
+
+/* Shopping cart */
+.shpcrt {
+    border: 0px solid;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 900px;
+    height: 500px;
+    margin-top: 15px;
+
+}
+
+.shpcrt nav {
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.img1 {
+    width: 100px;
+    height: 120px;
+}
+
+.shpcrt h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    margin-top: 10px;
+
+}
+
+.details001 {
+    display: flex;
+    position: relative;
+    left: 140px;
+    bottom: 150px;
+
+}
+
+.shpctdetails {
+    position: relative;
+    padding-right: 170px;
+}
+
+.shpctdetails h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.shpctdetails p {
+    color: rgb(141, 141, 141);
+    position: relative;
+    bottom: 12px;
+
+}
+
+.shpctdetails h4 {
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+.shpctdetails button {
+    padding: 7px;
+    width: 100px;
+    background-color: white;
+    color: rgb(72, 72, 72);
+    border: 2px solid gray;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 15px;
+}
+
+/* Quantity */
+.quantity {
+    padding-right: 170px;
+}
+
+.quantity h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+}
+
+.quantity h2 {
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 400;
+
+
+}
+
+.number {
+    display: flex;
+
+}
+
+.number h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    position: relative;
+    bottom: 9px;
+}
+
+.subtotal h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+}
+
+.line1 {
+    border: 1px solid rgb(220, 218, 218);
+    position: relative;
+    bottom: 110px;
+
+}
+
+.img2 {
+    width: 112px;
+    height: 150px;
+    position: relative;
+    bottom: 330px;
+    right: 15px;
+}
+
+/* Right side box */
+.rightside {
+    position: absolute;
+    top: 130px;
+    left: 1030px;
+    border: 0px solid;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.rightside h1 {
+    padding-top: 50px;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+    text-align: end;
+}
+
+.rightside p {
+    color: rgb(141, 141, 141);
+    width: 240px;
+    font-size: 20px;
+    text-align: end;
+    margin-left: 110px;
+
+
+}
+
+.line2 {
+    border: 1px solid rgb(220, 218, 218);
+    position: relative;
+    top: 30px;
+
+}
+
+.delivery {
+    display: flex;
+    align-items: start;
+    position: relative;
+    top: 70px;
+
+
+}
+
+.delivery p {
+    width: 170px;
+    text-align: start;
+    margin: 0px;
+    margin-right: 135px;
+
+}
+
+/* check out button */
+.choutbtn {
+    position: absolute;
+    top: 700px;
+    left: 650px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 220px;
+    color: white;
+    background-color: black;
+}
+
+
+/* Footer */
+footer {
+    background-color: rgb(218, 216, 216);
+    position: absolute;
+    top: 900px;
+
+
+
+
+}
+
+.footers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 90px;
+    margin-left: 100px;
+
+
+}
+
+.footer1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: rgb(66, 66, 67);
+    letter-spacing: 2px;
+
+
+}
+
+
+.endpart {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.endpart p {
+    font-size: 20px;
+    position: relative;
+    line-height: 30px;
+
+
+}
+
+.endpart ul li {
+    list-style: none;
+    margin-bottom: 18px;
+
+
+}
+
+.endpart ul li:hover {
+    color: blue;
+    transform: scale(1.1, 1.1);
+}
+
+.endpart ul {
+    padding-left: 80px;
+}
