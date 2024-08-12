@@ -292,8 +292,13 @@ header {
     border-radius: 30px;
     padding: 10px;
     width: 220px;
-    color: white;
+
     background-color: black;
+}
+
+.choutbtn a {
+    text-decoration: none;
+    color: white;
 }
 
 
